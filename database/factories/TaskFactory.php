@@ -9,6 +9,6 @@ $factory->define(Task::class, function (Faker $faker) {
     return [
         'Name'=>'Cucinare',
         'description'=>'devi cucinare la pasta',
-        'Data'=>'2022/13/01'
+        'Data'=>'2022/12/01'
     ];
 });
