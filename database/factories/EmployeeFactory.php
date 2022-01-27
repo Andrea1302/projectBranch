@@ -7,8 +7,8 @@ use Faker\Generator as Faker;
 
 $factory->define(Employee::class, function (Faker $faker) {
     return [
-        'name'=>'Andrea',
-        'surname'=>'Scarpa',
+        'name'=>$faker->firstName(),
+        'surname'=>$faker->lastName(),
         'date_of_birth'=> '1996/02/13',
         'rule'=> 'Impiegato',
         'salary'=>150000,
